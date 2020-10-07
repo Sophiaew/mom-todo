@@ -5,6 +5,7 @@ body {
   font-family: "Rock Salt", cursive;
   text-align: center;
 }
+
 .secondary-background {
   background-color: #5cbdb9;
 }
@@ -13,6 +14,7 @@ body {
   color: lightslategray;
   line-height: 125px;
 }
+
 /*Header*/
 h1 {
   margin: 0;
@@ -55,18 +57,43 @@ h2 {
 .task .square {
   border: 1px solid white;
 }
-.task .square .threeten {
+.threeten {
   background-color: cornflowerblue;
 }
-.task .square .threezerofive {
+.threezerofive {
   background-color: cornsilk;
 }
-.task .square .threefourtwo {
+.threefourtwo {
   background-color: #dda0dd;
 }
-.task .square .twofourtwo {
+.twofourtwo {
   background-color: seagreen;
 }
-.task .square .threeoneone {
+.threeoneone {
   background-color: goldenrod;
+}
+.task p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+/* Reminders */
+.reminders {
+  background-color: #fbe3e8;
+  display: inline-flex;
+  flex-grow: 2;
+}
+.reminders h3 {
+  width: 100%;
+  margin: 10px;
+  color: black;
+  line-height: 90px;
+  font-size: 24px;
+}
+/* Footer */
+footer {
+  font-size: 24px;
+}
+.reminders p {
+  display: flex;
 }
