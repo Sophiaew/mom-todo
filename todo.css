@@ -1,0 +1,72 @@
+/*universal styles*/
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+  font-family: "Rock Salt", cursive;
+  text-align: center;
+}
+.secondary-background {
+  background-color: #5cbdb9;
+}
+.tagline {
+  font-family: "Quicksand", sans-serif;
+  color: lightslategray;
+  line-height: 125px;
+}
+/*Header*/
+h1 {
+  margin: 0;
+  background-color: #fbe3e8;
+  line-height: 100px;
+}
+h2 {
+  margin: 10px;
+}
+/* App Container*/
+.container {
+  border: 2px solid Snow;
+  display: flex;
+}
+/*To Do*/
+.year {
+  display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
+}
+.row {
+  min-height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.square {
+  width: 125px;
+  height: 125px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.month .square {
+  background-color: #fbe3e8;
+  border: 1px solid white;
+}
+.task .square {
+  border: 1px solid white;
+}
+.task .square .threeten {
+  background-color: cornflowerblue;
+}
+.task .square .threezerofive {
+  background-color: cornsilk;
+}
+.task .square .threefourtwo {
+  background-color: #dda0dd;
+}
+.task .square .twofourtwo {
+  background-color: seagreen;
+}
+.task .square .threeoneone {
+  background-color: goldenrod;
+}
